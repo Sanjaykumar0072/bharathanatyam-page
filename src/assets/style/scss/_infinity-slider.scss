@@ -1,0 +1,57 @@
+$animationSpeed: 60s;
+
+// Animation
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-250px * 18));
+	}
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(calc(-250px * 18));
+	}
+}
+
+.slider {
+	width: 100%;
+	overflow: hidden;
+	position: absolute;
+	margin-top: -10rem;
+
+	.slider-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		align-items: center;
+		width: calc(250px * 35);
+		cursor: grab;
+
+		&:hover {
+			-webkit-animation-play-state: paused;
+			-moz-animation-play-state: paused;
+			-o-animation-play-state: paused;
+			animation-play-state: paused;
+		}
+
+		img {
+			width: 250px;
+		}
+	}
+}
+
+
+.slick-slider .slick-list, .slick-slider .slick-track {
+	display: flex;
+    align-items: center;
+
+	&:hover {
+		animation-play-state: paused;
+		cursor: grab;
+	}
+}

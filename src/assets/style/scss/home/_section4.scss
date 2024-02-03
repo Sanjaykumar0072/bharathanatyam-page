@@ -1,0 +1,56 @@
+.container-3 {
+    margin-bottom: 15rem;
+    h1 {
+        color: #000;
+        max-width: fit-content;
+    }
+    .video-content{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+
+        .video-box{
+            iframe{
+                width: 400px;
+                height: 270px;
+            }
+        }
+    }
+    .explore {
+        margin-bottom: 12rem;
+    }
+}
+
+.video-wrap{
+    background-image: radial-gradient(#9697B2 , #201D28 );
+    .videos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -150px;
+        left: 0;
+
+        img{
+            max-width: 240px;
+        }
+    }
+}
+.react-multi-carousel-list.carousel-container {
+    background-image: radial-gradient(#9697B2 , #201D28 );
+    ul {
+        align-items: center;
+        img {
+            max-width: 250px;
+        }
+    }
+}
+
+#section5 {
+    h1 {
+        animation: none;
+    }
+}

@@ -1,0 +1,38 @@
+.scroll.link-icons {
+  position: fixed;
+  z-index: 4;
+  display: none;
+  bottom: 8%;
+  right: 3%;
+
+  img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    background: #c9ac8c;
+    padding: 4px;
+    border-radius: 5px;
+    animation: pulse 2s infinite ease-out;
+
+    &:hover {
+      border: 2px solid #ffffff;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .scroll.link-icons{
+      right: 4%;
+    }
+}
+@media only screen and (max-width: 1023px) {
+  .scroll.link-icons{
+      right: 6%;
+    }
+}
+@media only screen and (max-width: 767px) {
+  .scroll.link-icons{
+      right: 10%;
+    }
+}
+  
