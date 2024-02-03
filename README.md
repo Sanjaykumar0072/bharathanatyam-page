@@ -1,5 +1,3 @@
-# React + Vite
-
 # Bharatanatyam Website
 
 # Overview
@@ -32,10 +30,4 @@ To explore the website, simply visit https://darshiinivs.com/.
 This Bharatanatyam website is licensed under the MIT License.
 
 # Copyright
-This Bharatanatyam website is designed and developed by <a href="https://sanjykumar0072.netlify.app/" style="
-    text-decoration: none;
-    font-style: oblique;
-    font-family: system-ui;
-    font-weight: 400;
-    font-size: 25px;
-">Sanjay Kumar</a>
+This Bharatanatyam website is designed and developed by <a href="https://sanjykumar0072.netlify.app/">Sanjay Kumar</a>
