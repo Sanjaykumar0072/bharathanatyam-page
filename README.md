@@ -30,4 +30,4 @@ To explore the website, simply visit https://darshiinivs.com/.
 This Bharatanatyam website is licensed under the MIT License.
 
 # Copyright
-This Bharatanatyam website is designed and developed by <a href="https://sanjykumar0072.netlify.app/">Sanjay Kumar</a>
+This Bharatanatyam website is designed and developed by <a href="https://sanjaykumar0072.netlify.app/">Sanjay Kumar</a>
