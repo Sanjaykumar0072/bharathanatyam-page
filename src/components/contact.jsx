@@ -14,7 +14,7 @@ class ContactUs extends Component {
             <>
                 <Helmet>
                 <meta charSet="utf-8" />
-                <title>Contact - Darshiini Dance School | Bharatanatyam | Classical Dance</title>
+                <title>Contact - Darshiini VS | Bharatanatyam | Classical Dance</title>
                 <link rel="canonical" href="https://darshiinivs.com/contact" />
             </Helmet>
                 <Header />

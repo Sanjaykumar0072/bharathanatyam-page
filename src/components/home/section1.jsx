@@ -8,7 +8,7 @@ export default function Section1() {
                     <h1>Darshiini VS Bharatanatyam Dancer</h1>
                 </div>
                 <div className='img-section'>
-                    <img src="/images/sec1-img.png" alt="" />
+                    <img src="/images/sec1-img.png" alt="sec1-img" />
                 </div>
             </section>
         </>

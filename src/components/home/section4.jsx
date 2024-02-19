@@ -9,7 +9,7 @@ export default function Section2() {
                     <div className="align video-align">
                         <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                             <h1>Video Gallery</h1>
-                            <h3>Graceful Performances on Screen</h3>
+                            <h2>Graceful Performances on Screen</h2>
                         </AnimationOnScroll>
                     </div>
                     <div className="video-content">
@@ -20,6 +20,7 @@ export default function Section2() {
                                     className="main-video"
                                     title='2021 shivaratri'
                                     allowFullScreen="allowfullscreen"
+                                    samesite="None"
                                 ></iframe>
                             </div>
                         </AnimationOnScroll>
@@ -30,6 +31,7 @@ export default function Section2() {
                                     className="main-video"
                                     title='Natyanjali'
                                     allowFullScreen="allowfullscreen"
+                                    samesite="None"
                                 ></iframe>
                             </div>
                         </AnimationOnScroll>
@@ -40,6 +42,7 @@ export default function Section2() {
                                     className="main-video"
                                     title='Natiyam'
                                     allowFullScreen="allowfullscreen"
+                                    samesite="None"
                                 ></iframe>
                             </div>
                         </AnimationOnScroll>

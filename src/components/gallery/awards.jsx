@@ -45,7 +45,7 @@ class GalleryModal extends React.Component {
                         <a href="#" className='modal-close' onClick={closeModal} onKeyDown={this.handleKeyDown}>&times;</a>
                         {hasPrev && <a href="#" className='modal-prev' onClick={findPrev} onKeyDown={this.handleKeyDown}>&lsaquo;</a>}
                         {hasNext && <a href="#" className='modal-next' onClick={findNext} onKeyDown={this.handleKeyDown}>&rsaquo;</a>}
-                        <img src={src} alt="" />
+                        <img src={src} alt={`${index + 1}.jpg`} />
                         <sup>{index + 1}/{totalImages}</sup>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ class Awards extends React.Component {
             <>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Awards - Darshiini Dance School | Bharatanatyam  | Classical Dance</title>
+                    <title>Awards - Darshiini VS | Bharatanatyam  | Classical Dance</title>
                     <link rel="canonical" href="https://darshiinivs.com/awards" />
                 </Helmet>
                 <Header />
@@ -153,7 +153,7 @@ class Awards extends React.Component {
                     <span>Awards</span>
                     <h1>Darshiini, a Virtuoso in the Realm of Bharatanatyam</h1>
                     <div className="gallery-flex">
-                        <img src="/images/photoshoot/PS-12.jpg" alt="" width="300" />
+                        <img src="/images/photoshoot/PS-12.jpg" alt="PS-12" width="300" />
                         <div>
                             <h2>Prestigious Awards</h2>
                             <ul>

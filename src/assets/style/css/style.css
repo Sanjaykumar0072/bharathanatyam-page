@@ -56,11 +56,11 @@ a {
   justify-content: space-between;
 }
 
-.container .align h3,
-.container-1 .align h3,
-.container-2 .align h3,
-.container-3 .align h3,
-.container-6 .align h3 {
+.container .align h2,
+.container-1 .align h2,
+.container-2 .align h2,
+.container-3 .align h2,
+.container-6 .align h2 {
   font-family: "Allura", cursive;
   font-size: 28px;
 }
@@ -676,14 +676,14 @@ h1 {
 }
 .contact h1,
 .aboutPage h1 {
+  font-weight: 400;
   animation: bounceDown 2s ease-in-out;
 }
 .contact h1,
-.contact h3,
+.contact h2,
 .aboutPage h1,
-.aboutPage h3 {
+.aboutPage h2 {
   text-align: center;
-  font-weight: 400;
   color: #fff;
   margin: 20px auto;
 }

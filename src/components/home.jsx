@@ -46,7 +46,7 @@ export default function Home() {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Home - Darshiini Dance School | Bharatanatyam | Classical Dance</title>
+                <title>Home - Darshiini VS | Bharatanatyam | Classical Dance</title>
                 <link rel="canonical" href="https://darshiinivs.com/" />
             </Helmet>
             <ScrollToTop />

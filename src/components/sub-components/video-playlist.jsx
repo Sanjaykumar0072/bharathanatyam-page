@@ -32,7 +32,9 @@ class VideoPlaylist extends Component {
                     src={mainVideoUrl}
                     className="main-video"
                     title={mainVideoTitle}
-                    allowFullScreen="allowfullscreen"
+                    allowFullScreen
+                    samesite="None"
+                    key={activeItem}
                 ></iframe>
                 <h3 className="main-vid-title">{mainVideoTitle}</h3>
               </div>

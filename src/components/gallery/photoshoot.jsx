@@ -45,7 +45,7 @@ class GalleryModal extends React.Component {
                         <a href="#" className='modal-close' onClick={closeModal} onKeyDown={this.handleKeyDown}>&times;</a>
                         {hasPrev && <a href="#" className='modal-prev' onClick={findPrev} onKeyDown={this.handleKeyDown}>&lsaquo;</a>}
                         {hasNext && <a href="#" className='modal-next' onClick={findNext} onKeyDown={this.handleKeyDown}>&rsaquo;</a>}
-                        <img src={src} alt=""/>
+                        <img src={src} alt={`PS-${index + 1}.jpg`} />
                         <sup>{index+1}/{totalImages}</sup>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ class Photoshoot extends React.Component {
             <>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Photoshoot - Darshiini Dance School | Bharatanatyam  | Classical Dance</title>
+                    <title>Photoshoot - Darshiini VS | Bharatanatyam  | Classical Dance</title>
                     <link rel="canonical" href="https://darshiinivs.com/photoshoot" />
                 </Helmet>
                 <Header />

@@ -91,7 +91,7 @@ class ContactForm extends Component {
                         <h1>Let’s Nritya Together!</h1>
                     </AnimationOnScroll>
                     <AnimationOnScroll animateOnce={true} animateIn='animate__fadeIn'>
-                        <h3>"பரதநாட்டிய உலகில் ஒவ்வொரு நடனக் கலைஞரும் கதைசொல்லிகள்தான்."</h3>
+                        <h2>"பரதநாட்டிய உலகில் ஒவ்வொரு நடனக் கலைஞரும் கதைசொல்லிகள்தான்."</h2>
                         <p>Dance of Communication Your Expressions in Motion! 🌟 We'll Choreograph a Swift Response!</p>
                     </AnimationOnScroll>
                     <div className="container-5">
@@ -113,7 +113,7 @@ class ContactForm extends Component {
                                     </div>
                                     <div>
                                         <label htmlFor="message">Message</label>
-                                        <textarea ref={this.inputRefs[3]} name="message" id="" cols="30" rows="10" placeholder="Unleash Your Inner Expressions Here🌟"></textarea>
+                                        <textarea ref={this.inputRefs[3]} name="message" id="" cols="30" rows="10" placeholder="Unleash Your Expressions Here🌟"></textarea>
                                     </div>
                                     {/* <div className="form-group">
                                         <div className="col mt-3"><LoadCanvasTemplate /></div>

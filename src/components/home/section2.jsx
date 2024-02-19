@@ -8,7 +8,7 @@ export default function Section2() {
                 <div className="container-1">
                     <div className="abt-img">
                         <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
-                            <img src="/images/sec2image.png" alt=""/>
+                            <img src="/images/sec2image.png" alt="sec2image"/>
                         </AnimationOnScroll>
                     </div>
                     <div className="abt-content">
@@ -16,7 +16,7 @@ export default function Section2() {
                             <div className="align">
                                 <AnimationOnScroll animateOnce={true} animateIn="animate__fadeIn">
                                     <h1>About Me</h1>
-                                    <h3>Connecting through Bharathanatyam</h3>
+                                    <h2>Connecting through Bharathanatyam</h2>
                                 </AnimationOnScroll>
                             </div>
                             <p>Darshiini, the young and promising Bharatanatyam dancer from Chennai, stands as a testament to the fusion of talent, tradition, and innovation in the world of classical Indian dance. With her exceptional command over the intricate techniques of Bharatanatyam and her mature abhinaya, she brings to life stories and emotions that captivate audiences, leaving a lasting impression. Her journey as a performing artist has been marked by participation in prestigious dance festivals organized by renowned sabhas, not only in Chennai but also beyond its borders.

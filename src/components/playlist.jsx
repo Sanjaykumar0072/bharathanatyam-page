@@ -11,7 +11,7 @@ class Playlist extends Component {
       <>
       <Helmet>
                 <meta charSet="utf-8" />
-                <title>Playlist - Darshiini Dance School |  Bharatanatyam  | Classical Dance</title>
+                <title>Playlist - Darshiini VS |  Bharatanatyam  | Classical Dance</title>
                 <link rel="canonical" href="https://darshiinivs.com/playlist" />
             </Helmet>
         <Header />

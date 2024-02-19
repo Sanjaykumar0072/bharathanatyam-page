@@ -45,7 +45,7 @@ class GalleryModal extends React.Component {
                         <a href="#" className='modal-close' onClick={closeModal} onKeyDown={this.handleKeyDown}>&times;</a>
                         {hasPrev && <a href="#" className='modal-prev' onClick={findPrev} onKeyDown={this.handleKeyDown}>&lsaquo;</a>}
                         {hasNext && <a href="#" className='modal-next' onClick={findNext} onKeyDown={this.handleKeyDown}>&rsaquo;</a>}
-                        <img src={src} alt=""/>
+                        <img src={src} alt={`ev-${index + 1}.jpg`} />
                         <sup>{index+1}/{totalImages}</sup>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ class Events extends React.Component {
             <>
                 <Helmet>
                     <meta charSet="utf-8" />
-                    <title>Events - Darshiini Dance School | Bharatanatyam | Classical Dance</title>
+                    <title>Events - Darshiini VS | Bharatanatyam | Classical Dance</title>
                     <link rel="canonical" href="https://darshiinivs.com/events" />
                 </Helmet>
                 <Header />
@@ -153,7 +153,7 @@ class Events extends React.Component {
                     <span>Events</span>
                     <h1>Darshiini, a Virtuoso in the Realm of Bharatanatyam</h1>
                     <div className="gallery-flex event-flex">
-                        <img src="/images/events/event.jpg" alt="" width="300" />
+                        <img src="/images/events/event.jpg" alt="event" width="300" />
                         <div>
                             <h2>Importance Performance</h2>
                             <ul>

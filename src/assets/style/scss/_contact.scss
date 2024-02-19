@@ -13,13 +13,13 @@ $white: #fff;
   padding: 50px;
 
   h1 {
+    font-weight: 400;
     animation: bounceDown 2s ease-in-out;
   }
 
   h1,
-  h3 {
+  h2 {
     text-align: center;
-    font-weight: 400;
     color: $white;
     margin: 20px auto;
   }

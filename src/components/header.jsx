@@ -19,11 +19,12 @@ export default function Header() {
                 <nav className="navbar" onClick={e => e.stopPropagation()}>
                     <div className="nav-container">
                         <NavLink
+                            aria-label="Home"
                             exact="true"
                             to="/"
                             className="nav-logo"
                         >
-                            <img src="/images/darshiiniVS_logo1.svg" alt="" />
+                            <img src="/images/darshiiniVS_logo1.svg" alt="Logo" />
                         </NavLink>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className="nav-item">

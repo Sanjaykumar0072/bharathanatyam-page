@@ -9,7 +9,7 @@ export default function About() {
         <>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>About - Darshiini Dance School | Bharatanatyam  | Classical Dance</title>
+                <title>About - Darshiini VS | Bharatanatyam  | Classical Dance</title>
                 <link rel="canonical" href="https://darshiinivs.com/about" />
             </Helmet>
             <Header />
